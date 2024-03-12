@@ -14,3 +14,6 @@ WorkingDirectory=/var/www/html/cat_web/
 
 [Install]
 WantedBy=multi-user.target
+
+#  TO RUN LOCALLY, MOVE TO THE FOLDER CONTAINING 'proxy-server.mjs'
+node --experimental-modules proxy-server.mjs
